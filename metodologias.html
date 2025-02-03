@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>metodologias</title>
+    <style>
+    .titulo{
+        text-align: center;
+        font-size: 300%;
+        color:white;
+        margin-bottom: 3%;
+    }
+    .texto{
+        color: white;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(114, 108, 180);
+      display: inline-block;
+      transition: color 0.3s ease;
+    }
+
+    /* cambia el tamaño cuando se pasa el raton por encima y rota, tambien cambia a un color mas oscuro*/
+    a:hover {
+      animation: enlace 0.3s forwards;  
+      color: rgb(22, 18, 61);          
+    }
+
+    /* Vuelve al tamaño original cuando se quita el ratón */
+    a:not(:hover) {
+      animation: enlace 0.3s reverse forwards;
+    }
+    
+    @keyframes enlace {
+        from{
+            transform: scale(1);
+            color: rgb(114, 108, 180);
+            transform: rotate(0deg);
+           
+        }
+        to{
+            transform: scale(1.5);
+            color: rgb(114, 108, 180);
+            transform: rotate(50deg);
+            
+        }
+    }
+        
+    
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="titulo">Metodologías Ágiles</div>
+    <div class="texto">Las Metodologías Ágiles son un enfoque para la gestión de proyectos que enfatiza 
+    la flexibilidad, la colaboración y la entrega de productos.</p>Estas
+    dividen el trabajo en ciclos cortos llamados «sprints».</p>
+    En cada uno de estos ciclos, se desarrollan, prueban y revisan pequeñas partes del producto, permitiendo ajustes 
+    y fomentando una rápida adaptación a cambios y mejora la calidad final del producto.</p>
+    La Metodología Ágil se basa en 12 principios fundamentales que funcionan como una guía de trabajo para que se utilice correctamente:
+    <ol>
+        <li>Satisfacer al cliente a través de la entrega temprana y continua de software valioso.</li>
+        <li>Aceptar cambios en los requisitos, incluso en etapas avanzadas del desarrollo.</li>
+        <li>Entregar software funcional con frecuencia, en plazos cortos.</li>
+        <li>Colaboración constante entre el equipo de desarrollo y los clientes.</li>
+        <li>Motivar a los individuos brindándoles el entorno y el apoyo necesarios.</li>
+        <li>Comunicación cara a cara como la forma más eficiente de transmitir información.</li>
+        <li>Medir el progreso del proyecto según el software funcional entregado.</li>
+        <li>Mantener un ritmo de trabajo constante y sostenible.</li>
+        <li>Excelencia técnica y buen diseño para mejorar la agilidad.</li>
+        <li>Simplicidad en los procesos, enfocándose en maximizar el trabajo no realizado.</li>
+        <li>Equipos autoorganizados que tomen decisiones sobre cómo alcanzar sus objetivos.</li>
+        <li>Reflexionar regularmente sobre cómo ser más efectivos y ajustar el comportamiento en consecuencia.</li>
+    </ol>
+    Estos son ejemplos de Metodologías Ágiles: <a href="Scrum.html">Scrum</a>, <a href="kanban.html">Kanban</a>, <a href="XP.html">XP</a>
+    </div>
+</body>
+</html>
